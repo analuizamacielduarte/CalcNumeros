@@ -1,0 +1,13 @@
+int[] nums = {3,5,7,4,2};
+int i, menor = 90000;
+
+for (i = 0; i < 5; i = i + 1)
+{
+    if (nums[i] < menor)
+    {
+        menor = nums[i];
+    }
+}
+
+Console.WriteLine($"O menor:{menor}");
+Console.ReadKey();
