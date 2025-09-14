@@ -1,0 +1,14 @@
+
+int[] nums = {3,5,7,4,2};
+int i;
+double media = 0;
+
+for (i = 0; i < 5; i = i + 1)
+{
+    media = nums[i] + media;
+}
+
+media = media / 5;
+
+Console.WriteLine($"A média: {media}");
+Console.ReadKey();
